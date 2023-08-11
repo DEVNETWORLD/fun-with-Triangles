@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <nav class="navigation">
+        <ul class="list-non-bullet nav-pills">
+        <li class="list-inline"><a  class="link" href="/istraingle1.html">istriangle?</a></li>
+        <li class="list-inline"><a class="link link-active" href="/">Quiz</a></li>
+        <li class="list-inline"><a  class="link" href="/hypotenuse.html">Hypotenuse</a></li>
+        <li class="list-inline"><a  class="link" href="/area.html">Area</a></li>
+        </ul>
+     </nav>
+     
+    <h1>Traingle Quiz</h1>
+    <form class="quiz-form">
+<div class="question-container">
+    <p>What is the third angle of the triangle if angle1=45° and angle2=45°? </p>
+    <label><input type="radio" name="a" value="45°"/>45°</label>
+    <label><input type="radio" name="a" value="60°"/>60°</label>
+    <label><input type="radio" name="a" value="90°"/>90°</label>
+
+</div>
+<div class="question-container">
+    <p>If one angle of a triangle is 90°, what is it called?</p>
+    <label><input type="radio" name="b" value="obtuse"/>obtuse</label>
+    <label><input type="radio" name="b" value="acute"/>acute</label>
+    <label><input type="radio" name="b" value="right angled"/>right angled</label>
+
+</div>
+
+<div class="question-container">
+    <p>In triangle ABC, angle A = 90º and angle B = 25º.
+        In triangle DEF, angle E = 25º and angle F = 65º.
+        Are the triangles similar?</p>
+    <label><input type="radio" name="c"  value="true"/>true</label>
+    <label><input type="radio" name="c" value="false"/>false</label>
+
+</div>
+
+<div class="question-container">
+    <p>Two triangles are similar.  If the ratio of the perimeters is 5 : 3,
+        find the ratio of the corresponding sides.</p>
+    <label><input type="radio" name="d" value="5:3"/>5:3</label>
+    <label><input type="radio" name="d" value="8:3"/>8:3</label>
+    <label><input type="radio" name="d" value="25:9" />25:9</label>
+
+</div>
+
+
+<div class="question-container">
+    <p>The sides of a triangle are 7, 10, and 12.  Find the length of the longest
+       side of a similar triangle whose shortest side is 21. </p>
+       <label><input type="radio" name="e" value="12"/>12</label>
+       <label><input type="radio" name="e" value="21"/>21</label>
+       <label><input type="radio" name="e" value="36"/>36</label>
+   
+  </div>
+    </form>
+    <button id="quiz-btn">submit</button>
+    <h2 id="output"></h2>
+</body>
+<script src="quiz.js"></script>
+</html>
